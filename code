@@ -15,5 +15,5 @@ while True:
     if repeticao == 'nao':
         print('Obrigade por usar o Triangulo Descobrinator! \nAté mais!')
         break
-    elif repeticao != 'sim':
+    while repeticao != 'sim':
         repeticao = input('Não entendi, digite apenas sim ou nao:')
